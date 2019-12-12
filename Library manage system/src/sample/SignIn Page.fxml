@@ -17,7 +17,7 @@
          </font>
       </Label>
       <Label layoutY="118.0" prefHeight="623.0" prefWidth="904.0" style="-fx-background-color: #2d279c;" />
-      <PasswordField layoutX="298.0" layoutY="456.0" prefHeight="45.0" prefWidth="303.0">
+      <PasswordField layoutX="298.0" layoutY="456.0" prefHeight="45.0" prefWidth="303.0" promptText="Password" style="-fx-background-color: white;">
          <font>
             <Font size="24.0" />
          </font>
@@ -27,13 +27,13 @@
             <Font size="28.0" />
          </font>
       </Button>
-      <CheckBox layoutX="134.0" layoutY="567.0" mnemonicParsing="false" text="Remember Me" textFill="WHITE">
+      <CheckBox layoutX="127.0" layoutY="575.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="206.0" text="Remember Me" textFill="WHITE">
          <font>
-            <Font size="24.0" />
+            <Font size="18.0" />
          </font>
       </CheckBox>
      
-            <TextField layoutX="298.0" layoutY="370.0" prefHeight="46.0" prefWidth="303.0">
+            <TextField layoutX="298.0" layoutY="370.0" prefHeight="46.0" prefWidth="303.0" promptText="ID" style="-fx-background-color: white;" styleClass="icontextfieldpass" stylesheets="@style.css">
          <font>
             <Font size="24.0" />
          </font>

@@ -19,20 +19,26 @@
       <Line endX="50.0" fill="WHITE" layoutX="740.0" layoutY="104.0" startX="-50.0" stroke="WHITE" strokeWidth="5.0" />
       <VBox layoutX="394.0" layoutY="202.0" prefHeight="502.0" prefWidth="690.0">
          <children>
-            <TextField prefHeight="75.0" prefWidth="440.0" styleClass="icontextfieldpass" stylesheets="@style.css">
+            <TextField prefHeight="75.0" prefWidth="440.0" promptText="Login" styleClass="icontextfieldpass" stylesheets="@style.css">
                <font>
                   <Font size="24.0" />
                </font>
             </TextField>
-            <TextField prefHeight="75.0" prefWidth="440.0">
+            <TextField prefHeight="75.0" prefWidth="440.0" promptText="Password">
                <VBox.margin>
                   <Insets bottom="30.0" top="90.0" />
                </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
             </TextField>
-            <TextField prefHeight="75.0" prefWidth="440.0">
+            <TextField prefHeight="75.0" prefWidth="440.0" promptText="E-mail">
                <VBox.margin>
                   <Insets top="60.0" />
                </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
             </TextField>
          </children>
       </VBox>
